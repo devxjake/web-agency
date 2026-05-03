@@ -58,7 +58,7 @@ header .logo h1 {
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: rgba(40, 44, 50, 0.9);
+  background-color: rgba(40, 44, 50, 0.99);
   backdrop-filter: blur(1px);
   padding: 2rem 1rem 1rem;
   z-index: 1000;
