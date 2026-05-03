@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @import url("./../styles/Header.css"); /* HEADER STYLES*/
+@import url("./../styles/Hero.css"); /* HERO STYLES*/
 
 * {
   box-sizing: border-box;
@@ -30,6 +31,16 @@ body {
 .btn-primary:hover {
   background: #b45309;
   box-shadow: 0 0 40px 0 rgba(217, 119, 6, 0.4);
+}
+
+.btn-secondary {
+  background: #0e1b2e;
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* ===== LISTS ===== */
