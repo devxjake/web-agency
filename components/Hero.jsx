@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "./shared/Button";
+import FeatureMarquee from "./FeatureMarquee";
 import { FaArrowRight } from "react-icons/fa";
 
 function Badge() {
@@ -71,6 +72,7 @@ export default function Hero() {
       <Badge />
       <HeroTextContent />
       <HeroSocialProof />
+      <FeatureMarquee />
     </section>
   );
 }
