@@ -2,6 +2,7 @@
 
 @import url("./../styles/Header.css"); /* HEADER STYLES*/
 @import url("./../styles/Hero.css"); /* HERO STYLES*/
+@import url("./../styles/FeatureMarquee.css"); /* FEATURE MARQUEE STYLES*/
 
 * {
   box-sizing: border-box;
